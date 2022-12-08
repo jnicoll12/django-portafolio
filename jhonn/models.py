@@ -38,7 +38,7 @@ class Profile(models.Model):
 # Seccion de Habilidades
 
 class Category(models.Model):
-    name = models.CharField(max_length=20)
+    name = models.CharField(max_length=30)
 
     updated = models.DateTimeField(auto_now=True)
 
@@ -52,7 +52,7 @@ class Category(models.Model):
 class Skills(models.Model):
     category = models.ForeignKey(Category,
                                 on_delete=models.CASCADE)
-    skill_name = models.CharField(max_length=20)
+    skill_name = models.CharField(max_length=30)
 
     
 
