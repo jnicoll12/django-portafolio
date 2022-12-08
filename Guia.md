@@ -48,3 +48,7 @@ Preparar el modelo con las últimas modificaciones:
 
 Hacer la migración a la bd:
 `python manage.py migrate`
+
+11- Crear un super usuario para administrar e ingresar en el panel de login
+
+`python manage.py createsuperuser`
