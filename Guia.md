@@ -7,7 +7,7 @@
 
 `Set-ExecutionPolicy RemoteSigned`
 
-Si a todos, colocar Y y enter
+Si, a todos, colocar Y y enter
 
 3- Ya en la terminal ejecutar, se debe activar entorno virtual con el siguiente comando:
 
@@ -79,4 +79,21 @@ from django.conf.urls.static import static
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL,
                           document_root=settings.MEDIA_ROOT)
+```
+16- Agregar en el archivo views.py
+```python
+from django.shortcuts import render
+
+def index(request):
+    return render(request, 'index.html')
+```
+
+17- Crear archivo URLS.py en la aplicacion del proyecto, es decir, en jhonn y agregar lo siguiente
+```python
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.index, name='index')
+]
 ```
