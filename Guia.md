@@ -97,3 +97,10 @@ urlpatterns = [
     path('', views.index, name='index')
 ]
 ```
+## 3: CONFIGURACIÓN DE APP CON REILWAY
+
+18- Reilway, necesita el paque gunicorn, asi que lo instalamos con el siguiente comando:
+
+`pip install gunicorn`
+
+18- Crear, el archivo llamado Procfile en la raiz:
