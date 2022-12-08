@@ -1,4 +1,4 @@
-## 1: CONFIGURACION DE ENTORNO
+## 1: CONFIGURACIÓN DE ENTORNO
 1- Crear un entorno virtual donde instalar paquetes de python
 
 `py -m venv myenv`
@@ -36,6 +36,15 @@ INSTALLED_APPS = [
     'jhonn',
 ]
 ```
-## 2: CONFIGURACION DE APLICACION
+## 2: CONFIGURACIÓN DE LA APLICACION
 
-9- Creando modelos según nuestra plantilla de portafolio
+9- Creando modelos según nuestra plantilla de pagaina de portafolio (los archivos se encuentran en archivo models.py)
+
+10- Una ves agregado nuestro modelo, se procede a realizar las migraciones.
+
+Preparar el modelo con las últimas modificaciones:
+
+`python manage.py makemigrations`
+
+Hacer la migración a la bd:
+`python manage.py migrate`
