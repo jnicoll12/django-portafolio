@@ -36,3 +36,6 @@ INSTALLED_APPS = [
     'jhonn',
 ]
 ```
+## 2: CONFIGURACION DE APLICACION
+
+9- Creando modelos según nuestra plantilla de portafolio
