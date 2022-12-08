@@ -19,7 +19,7 @@ Si a todos, colocar Y y enter
 
 5- Iniciar un nuevo proyecto en el directorio, ejecutar lo siguiente :
 
-`django-admin startproject portfolio`
+`django-admin startproject portfolio .`
 
 6- Verificar si hasta ahora, todo esta bien, ejecutando:
 
