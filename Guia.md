@@ -55,3 +55,16 @@ Hacer la migración a la bd:
 
 12- Se agregan los modelos en el archivo admin.py del archivo jhonn, para que se muestre en el admin y poder agregar informacion de manera grafica
 
+13- Configurando la ruta y las URL de los archivos estáticos
+
+```python
+STATIC_URL = '/static/'
+MEDIA_URL = '/media/'
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media_root/')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static_root/')
+
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+]
+```
