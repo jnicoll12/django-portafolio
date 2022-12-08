@@ -52,3 +52,6 @@ Hacer la migración a la bd:
 11- Crear un super usuario para administrar e ingresar en el panel de login
 
 `python manage.py createsuperuser`
+
+12- Se agregan los modelos en el archivo admin.py del archivo jhonn, para que se muestre en el admin y poder agregar informacion de manera grafica
+
