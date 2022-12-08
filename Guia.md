@@ -1,4 +1,4 @@
-## 1: CONFIGURACION
+## 1: CONFIGURACION DE ENTORNO
 1- Crear un entorno virtual donde instalar paquetes de python
 
 `py -m venv myenv`
@@ -28,3 +28,11 @@ Si a todos, colocar Y y enter
 7- Crear aplicacion en el proyecto, ejecutando:
 
 `python manage.py startapp jhonn`
+
+8- Agregar la aplicacion creada en INSTALLED_APPS, esto se realiza en el archivo settings.py del proyecto principal, es decir, portafolio, se agrega al final, se vera algo asi:
+```python
+INSTALLED_APPS = [
+    'django.contrib.staticfiles',
+    'jhonn',
+]
+```
