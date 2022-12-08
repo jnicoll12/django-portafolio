@@ -14,6 +14,7 @@ Si a todos, colocar Y y enter
 `\myenv\Scripts\activate`
 
 4- Ya iniciado el entorno, instalar Django en entorno virtual:
+
 `pip install django`
 
 5- Iniciar un nuevo proyecto en el directorio, ejecutar lo siguiente :
@@ -26,4 +27,4 @@ Si a todos, colocar Y y enter
 
 7- Crear aplicacion en el proyecto, ejecutando:
 
-`python manage.py startapp john`
+`python manage.py startapp jhonn`
