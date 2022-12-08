@@ -70,7 +70,8 @@ STATICFILES_DIRS = [
 ```
 14- Importar en el archivo urls.py del proyecto principal en este caso, portafolio
 ```python
-
+from django.conf import settings
+from django.conf.urls.static import static
 ```
 15- Indicarle a Django dónde encontrar los archivos estáticos mientras la aplicacion se ejecuta en el navegador, se realiza en el archivo urls.py del proyecto principal en este caso, portafolio, fuera de urlpatterns[]
 

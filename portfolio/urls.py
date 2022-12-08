@@ -20,6 +20,9 @@ from django.conf.urls.static import static
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
+# Se indica a Django como encontrar las imagenes a traves de
+# de rutas estaticas de esta manera forma las
+# URL en el navegador y sabe como encontrar la imagen
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL,
                           document_root=settings.MEDIA_ROOT)
