@@ -1,4 +1,4 @@
-# PORTAFOLIO EN DJANGO <h1 align="center">  <img src="https://dantheengineer.com/content/images/size/w2000/2022/06/python-django-1.png" width="200"></h1>
+# <h1 align="center"> PORTAFOLIO EN DJANGO <p><img src="https://dantheengineer.com/content/images/size/w2000/2022/06/python-django-1.png" width="200" ></h1>
 
 ## Deploy
 - El proyecto esta subido en python anywhere.
