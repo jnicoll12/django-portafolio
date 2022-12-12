@@ -14,6 +14,6 @@ El proyecto tiene la siguiente estructura:
 - Portafolio: Muestra los proyectos que he desarrollado.
 ## Administración y contenido ✔
 El proyecto usa la administracion de Django, para ingresar informacion se necesita acceder como administrador.
-## Configuracion ⚡
+## Configuración ⚡
 La configuración la pueden encontrar en <a href="https://github.com/jnicoll12/django-portafolio/blob/main/Guia.md">aqui</a>
 <h1 align="center"><img src="https://i.ibb.co/CB3YnGT/portafolio-web.png" width="640" border="5"></h1>
