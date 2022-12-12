@@ -1,8 +1,12 @@
 # <h1 align="center"> PORTAFOLIO EN DJANGO <p><img src="https://dantheengineer.com/content/images/size/w2000/2022/06/python-django-1.png" width="200" ></h1>
-
-## Deploy
+## Contenido 📋
+- [Deploy](https://github.com/jnicoll12/django-portafolio#deploy)
+- [Uso](https://github.com/jnicoll12/django-portafolio#uso)
+- [Administración y contenido](https://github.com/jnicoll12/django-portafolio#administraci%C3%B3n-y-contenido)
+- [Configuración](https://github.com/jnicoll12/django-portafolio#configuracion)
+## Deploy 🛠
 - El proyecto esta subido en python anywhere.
-## Uso
+## Uso 📖
 El proyecto tiene la siguiente estructura:
 - Inicio:  Muestra información sobre el autor del portafolio, sin la necesidad de iniciar sesion.
 - Conoceme: Una breve descripcion del autor. 
